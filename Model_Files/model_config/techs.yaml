@@ -28,9 +28,9 @@ techs:
             lifetime: 25
         costs:
             monetary:
-                interest_rate: 0.91
-                energy_cap: 15
-                om_con: 1.3 # CHF/kWh electricity price #ppt
+                interest_rate: 0.04
+                energy_cap: 650
+                om_con: 0.25 # CHF/kWh electricity price #ppt
             # emissions:
                 # om_con: 0.3 # kg Co2/kWh carrier consuption cost
 
@@ -56,8 +56,8 @@ techs:
             lifetime: 25
         costs:
             monetary:
-                interest_rate: 0.50 # TBC
-                energy_cap: 1350
+                interest_rate: 0.04 # TBC
+                energy_cap: 1825
                 export: -0.10 # feed-in tariff (listed as a "negative cost")
                 om_con: 0.00 # /kWh carrier consumption cost (e.g. for O&M)
             # emissions:
@@ -79,8 +79,8 @@ techs:
             lifetime: 25 # years
         costs:
             monetary:
-                interest_rate: 0.10
-                storage_cap: 20 # cost per kWh
+                interest_rate: 0.04
+                storage_cap: 46 # cost per kWh
             
 
 
@@ -101,8 +101,8 @@ techs:
             primary_carrier_out: heat
         constraints:
             energy_eff: 1
-            #energy_cap_max: 6.7 # kW
-            energy_cap_equals: 6.7 # kW
+            energy_cap_max: 6.7 # kW
+            #energy_cap_equals: 6.7 # kW
             carrier_ratios:
                 carrier_out:
                     heat: 3.4 # COP - TBC
@@ -110,8 +110,8 @@ techs:
             lifetime: 25 # years
         costs:
             monetary:
-                interest_rate: 0.10
-                energy_cap: 2000 # cost of built capacity per kW
+                interest_rate: 0.04
+                energy_cap: 2679 # cost of built capacity per kW
     
     # ahp-end
 
