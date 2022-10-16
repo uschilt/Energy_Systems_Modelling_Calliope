@@ -61,7 +61,7 @@ techs:
                 export: -0.10 # feed-in tariff (listed as a "negative cost")
                 om_con: 0.00 # /kWh carrier consumption cost (e.g. for O&M)
             # emissions:
-                # om_con: 0.0 # kg Co2/kWh carrier consuption cost
+                # om_con: 0.0 # kg Co2/kWh carrier consumption cost
     # pv-end
     
 ##-Storage-##
