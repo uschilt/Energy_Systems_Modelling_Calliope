@@ -74,8 +74,8 @@ techs:
             carrier_in: heat
             carrier_out: heat
         constraints:
-            storage_cap_equals: 200 # storage capacity (kWh); for max storage capacity, use: 'storage_cap_max'
-            # storage_cap_max: 200 # storage capacity (kWh); for max storage capacity, use: 'storage_cap_max'
+            #storage_cap_equals: 200 # storage capacity (kWh); for max storage capacity, use: 'storage_cap_max'
+            storage_cap_max: 200 # storage capacity (kWh); for max storage capacity, use: 'storage_cap_max'
             lifetime: 25 # years
         costs:
             monetary:
